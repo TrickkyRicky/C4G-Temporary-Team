@@ -1,6 +1,6 @@
 export default function LighthouseReportPage() {
   const lighthouseScores = {
-    performanceScore: 41,
+    performanceScore: 55,
     accessibilityScore: 100,
     bestPracticesScore: 100,
     seoScore: 100,
