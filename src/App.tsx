@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import TeamPage from "./page";
 
 // 2025 Fall
@@ -27,7 +27,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigate to="/team" replace />} />
+        <Route path="/" element={<TeamPage />} />
         <Route path="/team" element={<TeamPage />} />
 
         {/* 2025 Fall */}
